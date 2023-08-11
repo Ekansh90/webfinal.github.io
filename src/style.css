@@ -1,0 +1,355 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+
+#header
+{
+    display: inline-block;
+    width:100%;
+    height: 100vh;
+}
+
+#header nav 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10%;
+}
+
+.container img
+{
+    padding: 30px;
+    align-items:end;
+    align-content: flex-end;
+    
+}
+
+/**/
+
+
+.head-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: #056aad; /* Set the background color */
+    padding: 10px; /* Add some padding for better visibility */
+    color: white; /* Set text color */
+
+    border: 2px solid #000; /* Set border width and color */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners if desired */
+}
+
+.header-image
+{
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.head-text
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.top-right-links-container
+{
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+    
+
+
+}
+
+.top-right-element
+{
+    padding-right: 40px;
+
+}
+
+
+.second-container
+{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(251, 216, 173);
+}
+
+.name-text h1
+{
+    font-size: 80px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 80px;
+
+    color: rgb(255, 134, 93);
+}
+
+.name-text p
+{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 150px;
+    color: darkorange;
+}
+
+.intro-image
+{
+    margin-left: 150px;
+    background-color:rgb(250, 234, 170); /* Set the desired background color */
+    padding: 30px; 
+    border-radius: 50px; /* Add rounded corners if desired */
+}
+
+
+.intro-image img
+{
+
+
+    background-color:rgb(215, 180, 38); /* Set the desired background color */
+    padding: 30px; 
+    border-radius: 50px; /* Add rounded corners if desired */
+}
+
+
+
+/**/
+
+.about-me-section
+{
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(254, 233, 207);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*
+    padding-left: 60px;
+    */
+
+}
+
+.text-container p
+{
+    padding-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+
+    background-color:rgb(250, 234, 170); 
+    color: rgb(123, 123, 11);
+    /*
+    Set the desired background color */
+    /*
+    border-radius: 50px; /* Add rounded corners if desired */
+    padding: 30px; 
+
+}
+
+.sect-image
+{
+    background-color:rgb(250, 234, 170); /* Set the desired background color */
+    padding: 30px; 
+    border-radius: 50px; /* Add rounded corners if desired */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.footer
+{
+    background-color: black; /* Set the background color */
+    padding: 30px; /* Add some padding for better visibility */
+    color: white; /* Set text color */
+    text-align: center;
+    font-size: 20px;
+
+}
+/*--------------------------------------------------Property-1 --------------------------------------------------*/
+
+/*MAIN CONTAINER*/
+.second-page-container2 
+{
+    padding: 40px;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+
+}
+
+.property1-title
+{
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    padding-bottom: 50px;
+}
+
+
+.property1-img-container
+{
+    padding-right: 50px;
+
+}
+
+.property1-img-container img
+{
+    
+    border-radius: 20px;
+
+}
+
+
+.property1-project-details p
+{
+    font-size: 25px;
+}   
+
+
+
+
+.prop1-info-elements
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.prop1-info-elements-container 
+{
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+
+.prop1-info-elements-container h1
+{
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.prop1-info-elements-container p
+{
+    font-size: 25px;
+    padding-bottom: 30px;
+    
+}
+
+/*              LIST OF RELATED PRODUCTS                    */
+
+
+.related-products h1
+{
+    padding-left: 32px;
+}
+
+.listed-properties-img-container
+{
+    padding-left: 22px;
+
+}
+
+.listed-properties
+{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.listed-properties img
+{
+    width: 350px;
+    height:300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    border-radius: 70px;
+}
+
+.listed-properties p
+{
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+/*                      ALL PROPERTIES                  */
+
+
+.ALL-HEADER
+{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    
+}
+.all-prop-images
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+       
+}
+
+.props-container
+{
+    border-radius: 30px;
+}
+
+.all-prop-images img
+{
+    width: 650px;
+    height:400px;
+   
+    padding-right: 10px;
+    padding-top: 30px;
+    border-radius: 70px;
+    padding: 10px;
+
+    background-color: rgb(166, 166, 255);
+    
+}
+
+.all-prop-images p
+{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    color:rgb(95, 207, 207)
+}
